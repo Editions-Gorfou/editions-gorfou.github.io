@@ -34,13 +34,13 @@ export default function Navbar() {
                       <a className="nav-link active" aria-current="page" href="/">Accueil</a>
                   </li>
                   <li className="nav-item pr-2">
-                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/catalogue.html">Catalogue</a>
+                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/catalog">Catalogue</a>
                   </li>
                   <li className="nav-item pr-2">
-                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/auteurs.html">Auteurs</a>
+                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/authors">Auteurs</a>
                   </li>
                   <li className="nav-item pr-2">
-                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/blog.html">Blog</a>
+                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/blog">Blog</a>
                   </li>
               </ul>
           </div>
