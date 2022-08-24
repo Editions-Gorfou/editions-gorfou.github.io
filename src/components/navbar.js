@@ -1,6 +1,6 @@
-import { ReactComponent as Icon } from '../assets/editions-gorfou-logo.svg';
+import Image from 'next/image';
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="relative w-full flex flex-wrap items-center justify-between py-4 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light">
       <button className="
@@ -23,8 +23,10 @@ function Navbar() {
       <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
         <div className="container-fluid">
           <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-              <a className="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" href="#">
-              <Icon className="mr-2" style={{height: "32px"}} />
+              <a className="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 lg:mt-0 mr-1" href="#">
+              <div className="mr-2 mt-2">
+                <Image src="/assets/editions-gorfou-logo.svg" height={32} width={32} />
+              </div>
               <span className="font-medium">Éditions Gorfou</span>
               </a>
               <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
@@ -47,5 +49,3 @@ function Navbar() {
     </nav>
   )
 }
-
-export default Navbar
