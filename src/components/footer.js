@@ -73,7 +73,7 @@ export default function Footer() {
               Éditions Gorfou
             </h6>
             <p>
-              Site web réalisé par Rhodatech SARL au capital de 1 000 € immatriculée au RCS de Lyon sous le numéro 917760456.
+              Société par actions simplifiée au capital de 1 000 € et immatriculée au RCS de Lyon sous le numéro 920608577.
             </p>
           </div>
           <div className="">
