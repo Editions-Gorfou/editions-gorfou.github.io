@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
+    "markdown-it-center-text": "^1.0.4",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",

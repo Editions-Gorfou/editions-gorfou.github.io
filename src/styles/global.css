@@ -5,3 +5,11 @@
 body {
   font-family: Century;
 }
+
+.post-content img {
+  margin: auto;
+}
+
+.text-align-center {
+  text-align: center;
+}

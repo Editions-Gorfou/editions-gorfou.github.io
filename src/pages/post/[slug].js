@@ -1,6 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import md from 'markdown-it';
+import mdCenterText from 'markdown-it-center-text';
 
 export async function getStaticPaths() {
   const files = fs.readdirSync('src/posts');
@@ -30,7 +31,7 @@ export default function PostPage({ frontmatter, content }) {
   return (
     <div className='prose mx-auto'>
       <h1 className="mt-5">{frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      <div className="post-content" dangerouslySetInnerHTML={{ __html: md().use(mdCenterText).render(content) }} />
     </div>
   );
 }

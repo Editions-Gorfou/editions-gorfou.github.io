@@ -21,8 +21,10 @@ ont déjà vu le film __Le Dernier Samouraï__ de **Edward Zwick**. Le personnag
 J’avais entendu parler de Jules Brunet pour la première fois autour de 2012 lorsque je me renseignais sur un sabreur qui avait vécu à la fin du dix-neuvième siècle, dont la notoriété est relativement répandue (peut-être pas autant que Miyamoto Musashi ou Oda Nobunaga, mais tout de même !), j’ai nommé Hijikata Toshizo.
 
 ![Jules Brunet, source : Wikipédia](/images/genese/jules-brunet.jpg)
+-> *Jules Brunet, source : Wikipédia* <-
 
 ![Hijikata Toshizo, source : Wikipédia](/images/genese/hijikata-toshizo.jpg)
+-> *Hijikata Toshizo, source : Wikipédia* <-
 
 Le lien entre les deux hommes est le suivant : sur la page wikipédia française de Hijikata Toshizo, à l’heure d’aujourd’hui, nous pouvons encore lire :
 
