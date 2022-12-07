@@ -29,7 +29,7 @@ export default function Authors({ authors }) {
     <ul>
       {authors.map(({ slug, frontmatter }) => (
         <li>
-          <Link href={`/authors/${slug}`}>
+          <Link href={`/author/${slug}`}>
             <a>{frontmatter.name}</a>
           </Link>
         </li>

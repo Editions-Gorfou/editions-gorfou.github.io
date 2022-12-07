@@ -26,7 +26,7 @@ export async function getStaticProps({ params: { slug } }) {
   };
 }
 
-export default function PostPage({ frontmatter, content }) {
+export default function AuthorPage({ frontmatter, content }) {
   return (
     <div className='mx-auto'>
       <h1 className="mt-5">{frontmatter.name}</h1>
