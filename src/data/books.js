@@ -1,5 +1,16 @@
 export default [
   {
+    "slug": "crash-test",
+    "title": "Crash Test",
+    "author": "Geoffrey Royer",
+    "pitch": "Premier livre de la maison qui explique comment monter sa maison d’édition.",
+    "cover": "/assets/cover/crash-test.svg",
+    "cover2": "/assets/cover/crash-test.svg",
+    "ebook-isbn": "978-2-38535-000-0",
+    "paperback-isbn": "978-2-38535-001-7"
+  },
+  {
+    "slug": "un-petale-dans-la-braise",
     "title": "Un pétale dans la braise",
     "author": "Geoffrey Royer",
     "pitch": "Roman historique qui se déroule au XIX<sup>e</sup> siècle au Japon, où un Français se bat aux côtés d’un Japonais.",
