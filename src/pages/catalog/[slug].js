@@ -1,0 +1,48 @@
+import fs from 'fs';
+import matter from 'gray-matter';
+import md from 'markdown-it';
+import Image from 'next/image';
+
+export async function getStaticPaths() {
+  const files = fs.readdirSync('src/catalog');
+  const paths = files.map((fileName) => ({
+    params: {
+      slug: fileName.replace('.md', ''),
+    },
+  }));
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params: { slug } }) {
+  const fileName = fs.readFileSync(`src/catalog/${slug}.md`, 'utf-8');
+  const { data: frontmatter, content } = matter(fileName);
+  return {
+    props: {
+      frontmatter,
+      content,
+    },
+  };
+}
+
+const imageLoader = ({ src }) => {
+  return `/assets/covers/${src}`;
+}
+
+export default function CatalogPage({ frontmatter, content }) {
+  return (
+    <div className='mx-auto'>
+      <h1 className="font-medium leading-tight text-5xl mt-5 mb-5 text-center font-bold">{frontmatter.title}</h1>
+      <Image
+      loader={imageLoader}
+      src={frontmatter.cover}
+      width={345}
+      height={525}
+      alt="Book front cover"
+    />
+      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+    </div>
+  );
+}

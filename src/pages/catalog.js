@@ -1,5 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
+import Link from 'next/link';
+
 
 export async function getStaticProps() {
   const files = fs.readdirSync('src/catalog');
@@ -31,7 +33,13 @@ export default function Catalog({ books }) {
             <h4 className="text-gray-900 text-xl leading-tight font-medium">{frontmatter.title}</h4>
             <h5 className="text-gray-500 mb-2">{frontmatter.author}</h5>
             <p className="text-gray-700 text-base mb-4" dangerouslySetInnerHTML={{ __html: frontmatter.pitch }} />
-            <a className="inline-block px-6 py-2.5 bg-black text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-600 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#" role="button">Découvrir</a>
+            <Link href={`/catalog/${slug}`}>
+              <a
+                className="inline-block px-6 py-2.5 bg-black text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-600 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out"
+                data-mdb-ripple="true"
+                data-mdb-ripple-color="light"
+                role="button">Découvrir</a>
+            </Link>
           </div>
         ))}
       </div>

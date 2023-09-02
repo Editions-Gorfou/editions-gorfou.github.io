@@ -5,4 +5,6 @@ pitch: Roman historique qui se déroule au XIX<sup>e</sup> siècle au Japon, où
 cover: /assets/cover/un-petale-dans-la-braise.svg
 ebook-isbn: Bientôt.
 paberback-isbn: Bientôt.
+slug: un-petale-dans-la-braise
+ebook-release-date: "1970-01-01"
 ---
