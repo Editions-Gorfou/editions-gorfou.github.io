@@ -7,7 +7,7 @@ cover: /assets/covers/crash-test-front-cover.png
 cover-width: 345
 cover-height: 525
 ebook-isbn: 978-2-38535-000-0
-ebook-price: "0,90 €"
+ebook-price: "0,99 €"
 paperback-price: "4,90 €"
 paperback-isbn: 978-2-38535-001-7
 ebook-release-date: "2022-12-07"
