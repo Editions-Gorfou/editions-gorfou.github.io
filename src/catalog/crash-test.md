@@ -3,7 +3,7 @@ title: Crash Test
 subtitle: Comment créer sa maison d’édition ?
 author: Geoffrey Royer
 pitch: Premier livre de la maison qui explique comment monter sa maison d’édition.
-cover: crash-test-front-cover.png
+cover: /assets/covers/crash-test-front-cover.png
 cover-width: 345
 cover-height: 525
 ebook-isbn: 978-2-38535-000-0

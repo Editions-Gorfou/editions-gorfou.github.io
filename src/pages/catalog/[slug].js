@@ -45,7 +45,6 @@ export default function CatalogPage({ frontmatter, content }) {
         <div className="mx-auto">
           <Image
             unoptimized
-            loader={imageLoader}
             src={frontmatter.cover}
             width={frontmatter["cover-width"]}
             height={frontmatter["cover-height"]}
