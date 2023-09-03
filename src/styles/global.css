@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Century;
-}
 
 .post-content img {
   margin: auto;

@@ -32,10 +32,15 @@ const imageLoader = ({ src }) => {
 }
 
 export default function CatalogPage({ frontmatter, content }) {
+  console.dir(frontmatter);
   return (
     <div className='mx-auto'>
       <h1 className="font-medium leading-tight text-5xl mt-5 mb-5 text-center font-bold">{frontmatter.title}</h1>
-
+      {frontmatter.subtitle !== null ? (
+        <h2 className="font-small leading-tight text-2xl mt-5 mb-5 text-center font-bold">{frontmatter.subtitle}</h2>
+      ) : (
+        <></>
+      )}
       <div className="grid grid-cols-2 gap-4">
         <div className="mx-auto">
           <Image
@@ -47,6 +52,7 @@ export default function CatalogPage({ frontmatter, content }) {
         </div>
         <div className="mx-auto">
           <div>Auteur : {frontmatter.author}</div>
+          <div>Description : {frontmatter.author}</div>
           <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         </div>
       </div>
