@@ -44,6 +44,7 @@ export default function CatalogPage({ frontmatter, content }) {
       <div className="grid grid-cols-2 gap-4">
         <div className="mx-auto">
           <Image
+            unoptimized
             loader={imageLoader}
             src={frontmatter.cover}
             width={frontmatter["cover-width"]}
