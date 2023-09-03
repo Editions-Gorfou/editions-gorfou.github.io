@@ -35,14 +35,21 @@ export default function CatalogPage({ frontmatter, content }) {
   return (
     <div className='mx-auto'>
       <h1 className="font-medium leading-tight text-5xl mt-5 mb-5 text-center font-bold">{frontmatter.title}</h1>
-      <Image
-      loader={imageLoader}
-      src={frontmatter.cover}
-      width={345}
-      height={525}
-      alt="Book front cover"
-    />
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+
+      <div className="grid grid-cols-2 gap-4">
+        <div className="mx-auto">
+          <Image
+            loader={imageLoader}
+            src={frontmatter.cover}
+            width={345}
+            height={525}
+            alt="Book front cover" />
+        </div>
+        <div className="mx-auto">
+          <div>Auteur : {frontmatter.author}</div>
+          <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        </div>
+      </div>
     </div>
   );
 }

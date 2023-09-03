@@ -27,9 +27,9 @@ export default function Catalog({ books }) {
     <>
       <h1 className="font-medium leading-tight text-5xl mt-5 mb-5 text-center font-bold">Catalogue</h1>
       <h5 className="text-xl font-bold mb-8 text-center">Découvrez nos nouveautés sous tous les formats (epub, broché…) sur cette page.</h5>
-      <div class="mx-auto content-center place-items-stretch place-self-center grid grid-cols-4 lg:grid-cols-12 gap-4 mt-5 mb-5 ml-5 mr-5">
+      <div className="mx-auto content-center place-items-stretch place-self-center grid grid-cols-4 lg:grid-cols-12 gap-4 mt-5 mb-5 ml-5 mr-5">
         {books.map(({slug, frontmatter}) => (
-          <div className="mx-auto block p-6 rounded-lg shadow-lg bg-white max-w-sm lg:col-span-3 col-span-12">
+          <div key={slug} className="mx-auto block p-6 rounded-lg shadow-lg bg-white max-w-sm lg:col-span-3 col-span-12">
             <h4 className="text-gray-900 text-xl leading-tight font-medium">{frontmatter.title}</h4>
             <h5 className="text-gray-500 mb-2">{frontmatter.author}</h5>
             <p className="text-gray-700 text-base mb-4" dangerouslySetInnerHTML={{ __html: frontmatter.pitch }} />

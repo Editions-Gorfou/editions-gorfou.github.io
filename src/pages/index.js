@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <div className="text-center bg-gray-50 text-gray-800 py-20 px-6">
       <div className="mx-auto">
-        <Image src="/assets/editions-gorfou-logo.svg" class="mx-auto" height={256} width={256} />
+        <Image src="/assets/editions-gorfou-logo.svg" className="mx-auto" height={256} width={256} />
       </div>
       <h1 className="text-5xl font-bold mt-0 mb-6">Bienvenue sur le site des Éditions Gorfou !</h1>
       <h3 className="text-3xl font-bold mb-8">Maison d’édition indépendante, à compte d’éditeur et dans l’ère du temps.</h3>
