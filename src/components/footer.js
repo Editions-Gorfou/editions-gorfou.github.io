@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="text-center lg:text-left bg-black text-white">
       <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
         <div className="mr-12 hidden lg:block">
-          <span>Suivez-nous sur les réseaux sociaux.</span>
+          <span>Suivez-nous sur les réseaux sociaux :</span>
         </div>
         <div className="flex justify-center">
           <a href="https://www.facebook.com/editionsgorfou/" className="mr-6 text-white">
