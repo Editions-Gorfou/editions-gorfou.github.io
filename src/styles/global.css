@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+.book-description p {
+  margin-bottom: 0.75em;
+  text-align: justify;
+}
+
 .post-content img {
   margin: auto;
 }

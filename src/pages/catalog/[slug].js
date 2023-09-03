@@ -46,14 +46,33 @@ export default function CatalogPage({ frontmatter, content }) {
           <Image
             loader={imageLoader}
             src={frontmatter.cover}
-            width={345}
-            height={525}
+            width={frontmatter["cover-width"]}
+            height={frontmatter["cover-height"]}
             alt="Book front cover" />
         </div>
         <div className="mx-auto">
           <div>Auteur : {frontmatter.author}</div>
-          <div>Description : {frontmatter.author}</div>
-          <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+          <div className="mt-3 mb-3">
+            Ebook :
+            <ul className="list-disc ml-9">
+              <li>ISBN : {frontmatter["ebook-isbn"]}</li>
+              <li>Prix : {frontmatter["ebook-price"]}</li>
+              <li>Date de publication : {frontmatter["ebook-release-date"]}</li>
+              <li>Acheter : <a className="inline-block px-2 py-2 bg-black text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-600 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out" href={frontmatter["ebook-amazon-link"]}>Amazon</a></li>
+            </ul>
+          </div>
+
+          <div className="mt-3 mb-3">
+            Livre broché :
+            <ul className="list-disc ml-9">
+              <li>ISBN : {frontmatter["paperback-isbn"]}</li>
+              <li>Prix : {frontmatter["paperback-price"]}</li>
+              <li>Date de publication :  {frontmatter["paperback-release-date"]}</li>
+              <li>Acheter : <a className="inline-block px-2 py-2 bg-black text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-600 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-600 active:shadow-lg transition duration-150 ease-in-out" href={frontmatter["paperback-amazon-link"]}>Amazon</a></li>
+            </ul>
+          </div>
+          <div className="mb-4">Description :</div>
+          <div className="pl-5 pr-5 align-justify book-description" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         </div>
       </div>
     </div>
