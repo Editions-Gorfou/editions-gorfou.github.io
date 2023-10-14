@@ -19,7 +19,7 @@ Japon, seconde moitié du dix-neuvième siècle. Le pays, forcé de s’ouvrir a
 
 Les partisans d’une nouvelle ère, au sud de l’archipel et naguère victimes d’oppression, fomentent un coup d’État contre le chef militaire, actuel détenteur des pleins pouvoirs politiques.
 
-Hijikata, guerrier d’élite et vice-commandant de la milice du Shinsengumi, fidèle au pouvoir établi, devra fédérer ses troupes face à la menace grandissante.
+Toshizo Hijikata, guerrier d’élite et vice-commandant de la milice du Shinsengumi, fidèle au pouvoir établi, devra fédérer ses troupes face à la menace grandissante.
 
 Jules Brunet, officier de l’armée française, sera envoyé sur place pour moderniser l’armée du pays. Homme du monde, Occidental, il se heurtera à une culture toute différente dont il ne semble réaliser la profondeur.
 
