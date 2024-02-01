@@ -1,21 +1,22 @@
 ---
 title: Un pétale dans la braise
+subtitle: Les aventures de Jules Brunet et de Toshizo Hijikata
 author: Geoffrey Royer
 pitch: Roman historique qui se déroule au XIX<sup>e</sup> siècle au Japon, où un Français se bat aux côtés d’un Japonais.
 cover: /assets/covers/un-petale-dans-la-braise-front-cover.jpg
 cover-width: 375
 cover-height: 525
 ebook-isbn: 978-2-38535-002-4
-ebook-release-date: Bientôt.
-ebook-price: Bientôt.
-ebook-amazon-link: "#"
+ebook-release-date: 01/02/2024
+ebook-price: 4,90 €
+ebook-amazon-link: https://www.amazon.fr/dp/B0CS59XLYY
 paperback-isbn: 978-2-38535-003-1
-paperback-price: Bientôt.
-paperback-release-date: Bientôt.
-paperback-amazon-link: "#"
+paperback-price: 19,90 €
+paperback-release-date: 01/02/2024
+paperback-amazon-link: https://www.amazon.fr/dp/2385350033
 slug: un-petale-dans-la-braise
 ---
-Japon, seconde moitié du dix-neuvième siècle. Le pays, forcé de s’ouvrir au monde après une politique isolationniste de plus de deux cents ans, connaît des troubles internes préoccupants.
+Japon, seconde moitié du XIX<sup>e</sup> siècle. Le pays, forcé de s’ouvrir au monde après une politique isolationniste de plus de deux cents ans, connaît des troubles internes préoccupants.
 
 Les partisans d’une nouvelle ère, au sud de l’archipel et naguère victimes d’oppression, fomentent un coup d’État contre le chef militaire, actuel détenteur des pleins pouvoirs politiques.
 
