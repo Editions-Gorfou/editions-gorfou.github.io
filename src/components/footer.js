@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center p-6 bg-gray-200 text-black">
-        <span>© 2022-2023 <a className="text-black font-semibold" href="http://www.editions-gorfou.fr">Éditions Gorfou</a>, tous droits réservés</span>
+        <span>© 2022-2024 <a className="text-black font-semibold" href="http://www.editions-gorfou.fr">Éditions Gorfou</a>, tous droits réservés</span>
       </div>
     </footer>
   );
