@@ -31,16 +31,16 @@ export default function Navbar() {
               </a>
               <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
                   <li className="nav-item px-2">
-                      <a className="nav-link active" aria-current="page" href="/">Accueil</a>
+                      <Link className="nav-link active" aria-current="page" href="/">Accueil</Link>
                   </li>
                   <li className="nav-item pr-2">
-                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/catalog">Catalogue</a>
+                      <Link className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/catalog">Catalogue</Link>
                   </li>
                   <li className="nav-item pr-2">
-                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/authors">Auteurs</a>
+                      <Link className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/authors">Auteurs</Link>
                   </li>
                   <li className="nav-item pr-2">
-                      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/blog">Blog</a>
+                      <Link className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/blog">Blog</Link>
                   </li>
               </ul>
           </div>
