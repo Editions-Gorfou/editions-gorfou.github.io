@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: Century, Georgia;
+}
 
 .book-description p {
   margin-bottom: 0.75em;
@@ -14,4 +17,8 @@
 
 .text-align-center {
   text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
 }

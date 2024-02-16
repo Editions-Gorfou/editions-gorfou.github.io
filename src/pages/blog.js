@@ -31,7 +31,7 @@ export default function Blog({ posts }) {
           {posts.map(({ slug, frontmatter }) => (
             <li>
               <Link href={`/post/${slug}`}>
-                <a>{frontmatter.title}</a>
+                {frontmatter.title}
               </Link>
             </li>
           ))}

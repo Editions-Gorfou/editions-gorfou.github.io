@@ -28,9 +28,9 @@ export default function Authors({ authors }) {
     <h1 className="font-medium leading-tight text-5xl mt-5 mb-5 text-center font-bold">Auteurs</h1>
     <ul>
       {authors.map(({ slug, frontmatter }) => (
-        <li>
+        <li key={slug}>
           <Link href={`/author/${slug}`}>
-            <a>{frontmatter.name}</a>
+            {frontmatter.name}
           </Link>
         </li>
       ))}

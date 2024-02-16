@@ -16,7 +16,7 @@ paperback-release-date: 01/02/2024
 paperback-amazon-link: https://www.amazon.fr/dp/2385350033
 slug: un-petale-dans-la-braise
 ---
-Japon, seconde moitié du XIX<sup>e</sup> siècle. Le pays, forcé de s’ouvrir au monde après une politique isolationniste de plus de deux cents ans, connaît des troubles internes préoccupants.
+Japon, seconde moitié du XIXe siècle. Le pays, forcé de s’ouvrir au monde après une politique isolationniste de plus de deux cents ans, connaît des troubles internes préoccupants.
 
 Les partisans d’une nouvelle ère, au sud de l’archipel et naguère victimes d’oppression, fomentent un coup d’État contre le chef militaire, actuel détenteur des pleins pouvoirs politiques.
 
