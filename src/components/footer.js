@@ -84,6 +84,9 @@ export default function Footer() {
               <Link href="/legal-mentions" className="text-white">Mentions légales</Link>
             </p>
             <p className="mb-4">
+              <Link href="/privacy-policy" className="text-white">Politique de confidentialité</Link>
+            </p>
+            <p className="mb-4">
               <Link href="/contact" className="text-white">Nous contacter</Link>
             </p>
           </div>
