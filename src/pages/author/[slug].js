@@ -28,7 +28,7 @@ export async function getStaticProps({ params: { slug } }) {
 
 export default function AuthorPage({ frontmatter, content }) {
   return (
-    <div className="mx-auto mx-auto content-center place-items-stretch place-self-center grid grid-cols-4 lg:grid-cols-12 gap-4 mt-5 mb-5 ml-5 mr-5">
+    <div className="mx-auto m-5">
       <h1 className="mt-5">{frontmatter.name}</h1>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </div>
