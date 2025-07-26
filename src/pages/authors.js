@@ -26,6 +26,7 @@ export default function Authors({ authors }) {
   return (
     <>
     <h1 className="font-medium leading-tight text-5xl mt-5 mb-5 text-center font-bold">Auteurs</h1>
+    <div className="mx-auto content-center place-items-stretch place-self-center grid grid-cols-4 lg:grid-cols-12 gap-4 mt-5 mb-5 ml-5 mr-5">
     <ul>
       {authors.map(({ slug, frontmatter }) => (
         <li key={slug}>
@@ -35,6 +36,7 @@ export default function Authors({ authors }) {
         </li>
       ))}
     </ul>
+    </div>
     </>
   )
 }
