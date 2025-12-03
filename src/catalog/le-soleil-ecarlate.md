@@ -7,13 +7,13 @@ cover: /assets/covers/le-soleil-ecarlate-front-cover.jpg
 cover-width: 375
 cover-height: 525
 ebook-isbn: 978-2-38535-004-8
-ebook-release-date: Bientôt
+ebook-release-date: 03/12/2025
 ebook-price: 4,90 €
-ebook-amazon-link: #
+ebook-amazon-link: https://www.amazon.fr/dp/B0G4RYDFV1
 paperback-isbn: 978-2-38535-005-5
 paperback-price: 19,90 €
-paperback-release-date: Bientôt
-paperback-amazon-link: #
+paperback-release-date: 03/12/2025
+paperback-amazon-link: https://www.amazon.fr/dp/238535005X
 slug: le-soleil-ecarlate
 ---
 Le soleil écarlate, c’est l’histoire de deux Japonais à la seconde moitié du XIXe siècle.
